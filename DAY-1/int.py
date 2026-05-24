@@ -15,3 +15,6 @@ print(f"\n Difference: {x - y}")
 print(f"\n Product: {x * y} ")
 print(f"\n Quotient: {x / y}")
 print(f"\n Exponent: {x ** y}")
+
+
+# F is used to insert variables or calculation directly inside a string. (formatted string)
