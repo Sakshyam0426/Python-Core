@@ -1,4 +1,21 @@
-# int data Type 
+
+# 1. Print Function
+print("Hello, Python!")
+
+
+# 2. Variables
+name = "Sakshyam Paudel"
+age = 20
+print("Name:", name)
+print("Age:", age)
+
+
+
+# 3. Data Types
+is_student = True               # Boolean
+height = 5.9                    # Float
+count = 10                      # Integer
+name = "Sakshyam Paudel"        # String
 
 
 
@@ -7,7 +24,7 @@
 x = 10
 y = 5
 
-# Performing arithmetic operatinos on int data
+# 4. Performing arithmetic operatinos on int data
 
 print(f"\n Arithmetic Operations")
 print(f"\n Sum: {x + y}")
