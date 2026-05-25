@@ -1,16 +1,5 @@
 # List data type in python
 
-text = "Sakshyam Paudel"
-spaced_string = "      Lumbini ICT       "
-print(len(text))
-
-#str method: len(),upper(),lower(),strip(),split()
-
-print(text.upper())
-print(text.lower())
-
-print(spaced_string.strip())
-
 # Declaring and initializing list variables
 fruits = ["apple", "banana", "mango",]
 more_fruits = ["grapes", "persimmon", "melon"]
