@@ -4,6 +4,7 @@
 fruits = ["apple", "banana", "mango",]
 more_fruits = ["grapes", "persimmon", "melon"]
 
+
 print(f"\n\nList Data Manipulation")
 print(f"\nOriginal list: {fruits}")
 
@@ -18,49 +19,84 @@ print(f"\nOriginal list: {fruits}")
 # empty
 # reversed
 
-# Adding new data to the end of the list
+
+# 1. Adding new data to the end of the list (Append)
 fruits.append("apple")
 print(f"\nList after appending data: {fruits}")
 
-# Removing data from the list using values
+
+# 2. Removing data from the list using values (Remove)
 fruits.remove("banana")
 print(f"\nList after removing data: {fruits}")
 
-# Joining two lists together
+
+
+# 3.  Joining two lists together (Extend)
 fruits.extend(more_fruits)
 print(f"\nAfter joining another list to fruits: {fruits}")
 
-# Inserting new data into a specific position in the list
+
+
+# 4.Inserting new data into a specific position in the list (Insert)
 fruits.insert(2, "lemon")
 print(f"\nInserting new data to index 2 of the list: {fruits}")
 
-# Counting the number of times a specific value appears in a list
+
+
+# 5. Counting the number of times a specific value appears in a list (Count)
 num_of_apples = fruits.count("apple")
 print(f"\nNumber of times 'apple' appears in the list: {num_of_apples}")
 
-# Removing list data with index value
+
+
+# 6. Removing list data with index value
 index_of_grapes = fruits.index("grapes")
 fruits.pop(index_of_grapes)
 print(f"\nRemoving data from list with their positional(index) value: {fruits}")
-
 numbers = [2, 7, 1, 4, 3, 9, 5]
 print(f"\n\nOriginal number list: {numbers}")
 
-# Reversing the order of the list
+
+
+# 7.  Reversing the order of the list
 reversed_numbers = numbers.reverse()
 print(f"\nNumbers list, reversed: {reversed_numbers}")
 
-# Sorting the list in ascending order
+
+# 8. Nested Lists (2D List)
+
+print("\nNested Lists")
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+print("Matrix:", matrix)
+print("Row 1:", matrix[0])          # [1, 2, 3]
+print("Element [1][2]:", matrix[1][2])  # 6
+
+
+
+
+
+# 9. Sorting the list in ascending order
 numbers.sort()
 print(f"\nSorted Numbers list: {numbers}") # Sorts in ascending order by default
 
-# Sorting the list in descending order
+
+
+# 10. Sorting the list in descending order
 numbers.sort(reverse=True)
 print(f"\nSorted Numbers list: {numbers}")
 
-# Emptying lists
+
+
+
+# 11. Emptying lists
 fruits.clear()
 numbers.clear()
 print(f"\n\nClearing the entire lists:")
 print(f"\nFruits list: {fruits}")
 print(f"\nNumbers list: {numbers}")
+
+
